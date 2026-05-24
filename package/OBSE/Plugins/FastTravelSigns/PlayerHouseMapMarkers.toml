@@ -1,0 +1,42 @@
+# REQUIRES: https://www.nexusmods.com/oblivionremastered/mods/690
+sRequiredPlugin = "PlayerHouseMapMarkers.esp"
+
+[AnvilHouse]
+sParent = 'Anvil'
+sMessage = "My House"
+kMapMarkerRefs = 'PlayerHouseMapMarkers.esp|000ED3'
+
+[BravilHouse]
+sParent = 'Bravil'
+sMessage = "My House"
+kMapMarkerRefs = 'PlayerHouseMapMarkers.esp|000ED8'
+
+[BrumaHouse]
+sParent = 'Bruma'
+sMessage = "My House"
+kMapMarkerRefs = 'PlayerHouseMapMarkers.esp|000ED6'
+
+[CheydinhalHouse]
+sParent = 'Cheydinhal'
+sMessage = "My House"
+kMapMarkerRefs = 'PlayerHouseMapMarkers.esp|000ED7'
+
+[ChorrolHouse]
+sParent = 'Chorrol'
+sMessage = "My House"
+kMapMarkerRefs = 'PlayerHouseMapMarkers.esp|000ED5'
+
+[ImperialCityHouse]
+sParent = 'ImperialCity'
+sMessage = "My House"
+kMapMarkerRefs = 'PlayerHouseMapMarkers.esp|0015AD'
+
+[LeyawiinHouse]
+sParent = 'Leyawiin'
+sMessage = "My House"
+kMapMarkerRefs = 'PlayerHouseMapMarkers.esp|000ED9'
+
+[SkingradHouse]
+sParent = 'Skingrad'
+sMessage = "My House"
+kMapMarkerRefs = 'PlayerHouseMapMarkers.esp|000ED4'

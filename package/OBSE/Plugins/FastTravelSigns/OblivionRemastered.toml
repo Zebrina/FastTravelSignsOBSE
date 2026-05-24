@@ -1,0 +1,98 @@
+[Anvil]
+sMessage = "Travel to Anvil?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x065586
+kMapMarkerRefs = 0x020097
+
+[DLCThievesDen]
+sParent = 'Anvil'
+sMessage = "Dunbarrow Cove"
+kMapMarkerRefs = 'DLCThievesDen.esp|01A4F3'
+
+[Bravil]
+sMessage = "Travel to Anvil?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x065587
+kMapMarkerRefs = 0x020098
+
+[Bruma]
+sMessage = "Travel to Bruma?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x065588
+# 020099 = East Gate
+# 18D897 = North Gate
+kMapMarkerRefs = [ 0x020099, 0x18D897 ]
+
+[DLCFrostcrag]
+sParent = 'Bruma'
+sMessage = "Frostcrag Spire"
+kMapMarkerRefs = 'DLCFrostcrag.esp|000D51'
+
+[Cheydinhal]
+sMessage = "Travel to Cheydinhal?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x065589
+# 02009A = West Gate
+# 0FF19B = East Gate
+kMapMarkerRefs = [ 0x02009A, 0x0FF19B ]
+
+[Chorrol]
+sMessage = "Travel to Chorrol?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x06557B
+# 0FF19C = South Gate
+# 06A80F = North Gate
+kMapMarkerRefs = [ 0x0FF19C, 0x06A80F ]
+
+[DLCBattlehornCastle]
+sParent = 'Chorrol'
+sMessage = "Battlehorn Castle"
+kMapMarkerRefs = 'DLCBattlehornCastle.esp|00B08B'
+
+[ImperialCity]
+sMessage = "Travel to The Imperial City?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x06558A
+# 008B66 = Arboretum
+# 008B65 = Arena District
+# 008B67 = Elven Gardens District
+# 008B6D = Market District
+# 008B6E = Talos Plaza
+# 008B6F = Temple District
+kMapMarkerRefs = [ 0x008B66, 0x008B65, 0x008B67, 0x008B6D, 0x008B6E, 0x008B6F ]
+
+[Kvatch]
+sMessage = "Travel to Kvatch?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x06558B
+kMapMarkerRefs = 0x01E8A2
+
+[Leyawiin]
+sMessage = "Travel to Leyawiin?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x06558C
+# 02009B = North Gate
+# 0E78DF = West Gate
+kMapMarkerRefs = [ 0x02009B, 0x0E78DF ]
+
+[DLCVileLair]
+sParent = 'Leyawiin'
+sMessage = "Deepscorn Hollow"
+kMapMarkerRefs = 'DLCVileLair.esp|001342'
+
+[Skingrad]
+sMessage = "Travel to Skingrad?"
+bRequireVisibility = true
+bRequireDiscovery = true
+kSignActivatorForm = 0x06558D
+# 00145A = West Gate
+# 10D752 = East Gate
+kMapMarkerRefs = [ 0x00145A, 0x10D752 ]
